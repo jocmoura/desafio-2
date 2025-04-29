@@ -56,8 +56,10 @@
     font-family: "Archivo", sans-serif;
     padding: 10px;
 }
-/* Info conteudo ok*/
+/* info marca*/
 
+
+/*produto- tenis e valores*/
 .tenis{
     display: flex;
     justify-content: center;
@@ -77,4 +79,8 @@
 .info-tenis .blu{
     color: rgba(124, 162, 244, 1);
     padding: 10px 0;
+}
+
+.info-tenis p{
+    font-size: 15px;
 }

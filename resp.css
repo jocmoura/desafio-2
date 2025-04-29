@@ -1,0 +1,32 @@
+/* Celulares */
+@media (max-width: 640px) {
+    body {
+      font-size: 14px;
+    }
+    
+  }
+  
+  /* Tablets */
+  @media (min-width: 641px) and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+    
+  }
+  
+  /* Laptops */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    body {
+      font-size: 18px;
+    }
+    .tenis{
+        grid-template-columns: repeat(2,1);
+    }
+  }
+  
+  /* Desktops */
+  @media (min-width: 1025px) {
+    body {
+      font-size: 20px;
+    }
+  }
